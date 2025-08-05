@@ -1,0 +1,125 @@
+body {
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+.emprendimiento-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.emprendimiento-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #4a90e2;
+}
+.logo-emprendimiento {
+    width: 100px;
+    height: 80px;
+    border-radius: 8px;
+    border: 3px solid white;
+    background: white;
+    margin-bottom: 15px;
+}
+.emprendimiento-header h1 {
+    font-size: 2em;
+    color: white;
+    margin: 10px 0;
+}
+.emprendimiento-header h2 {
+    font-size: 1.3em;
+    color: white;
+    margin: 10px 0;
+}
+.descripcion {
+    font-style: italic;
+    color: white;
+    margin-top: 10px;
+}
+section {
+    background: rgba(74, 144, 226, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #4a90e2;
+}
+section h3 {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.info-card, .impresiones-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.info-card p, .impresiones-card p {
+    margin: 10px 0;
+    line-height: 1.5;
+    color: white;
+}
+.info-card strong {
+    color: #4a90e2;
+}
+.fotos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.foto-stand {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    border: 2px solid #4a90e2;
+    object-fit: cover;
+}
+.foto-stand:hover {
+    transform: scale(1.05);
+}
+.video-container {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid #4a90e2;
+}
+.video-principal {
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    border-radius: 5px;
+    border: 1px solid #4a90e2;
+}
+.video-descripcion {
+    margin-top: 10px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    .emprendimiento-container {
+        padding: 15px;
+    }
+    .emprendimiento-header h1 {
+        font-size: 1.8em;
+    }
+    .foto-stand {
+        width: 100%;
+        max-width: 300px;
+    }
+    .video-principal {
+        height: 250px;
+    }
+}
